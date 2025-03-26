@@ -7,7 +7,4 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 
-// 본문 최대 너비 제한 설정 (예: 800px)
-$max-width: 800px;
-
 @import "minimal-mistakes"; // main partials
