@@ -114,8 +114,8 @@ analytics:
 # Site Author
 author:
   name             : "Sunny Cho (조선미)"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "  "
+  avatar           : "/assets/images/profile.JPG"
+  bio              : "AI 부트캠프 13기 학습자"
   location         : "South Korea"
   email            :
   links:
