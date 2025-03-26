@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Sunny Cho (조선미)"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "  "
   location         : "South Korea"
   email            :
