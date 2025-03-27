@@ -9,14 +9,13 @@ search: false
 @import "custom/custom";     // 커스텀 스타일 (직접 만든 경우)
 
 .page__content {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 
 @media (min-width: 768px) {
   .page__content {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
   }
 }
-
