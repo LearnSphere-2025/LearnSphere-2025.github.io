@@ -7,3 +7,16 @@ search: false
 
 @import "minimal-mistakes"; // 기본 테마
 @import "custom/custom";     // 커스텀 스타일 (직접 만든 경우)
+
+.page__content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .page__content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
