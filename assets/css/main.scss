@@ -5,6 +5,8 @@ search: false
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+# 원본 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+# 원본 @import "minimal-mistakes"; // main partials
 
+@import "minimal-mistakes"; // 기본 테마
+@import "custom/custom";     // 커스텀 스타일 (직접 만든 경우)
