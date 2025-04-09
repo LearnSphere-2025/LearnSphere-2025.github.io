@@ -2,19 +2,20 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 search: false
 ---
-
 @charset "utf-8";
 
 @import "minimal-mistakes"; // 기본 테마
 @import "custom/custom";     // 커스텀 스타일 (직접 만든 경우)
 
-.page__content {
+.page__content,
+.markdown-body {
   padding-left: 2rem !important;
   padding-right: 2rem !important;
 }
 
 @media (min-width: 768px) {
-  .page__content {
+  .page__content,
+  .markdown-body {
     padding-left: 4rem !important;
     padding-right: 4rem !important;
   }
