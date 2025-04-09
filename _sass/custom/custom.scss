@@ -1,11 +1,11 @@
 .page__content {
-  padding-left: 2rem;   // 기존 1.5rem에서 2rem으로 증가
-  padding-right: 2rem;  // 기존 1.5rem에서 2rem으로 증가
+  padding-left: 4rem;   // 기존 1.5rem에서 2rem으로 증가
+  padding-right: 4rem;  // 기존 1.5rem에서 2rem으로 증가
 }
 
 @media (min-width: 768px) {
   .page__content {
-    padding-left: 4rem;   // 기존 3rem에서 4rem으로 증가
-    padding-right: 4rem;  // 기존 3rem에서 4rem으로 증가
+    padding-left: 8rem;   // 기존 3rem에서 4rem으로 증가
+    padding-right: 8rem;  // 기존 3rem에서 4rem으로 증가
   }
 }
