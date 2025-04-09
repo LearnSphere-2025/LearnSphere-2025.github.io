@@ -13,11 +13,11 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-    <div class="initial-content">
+    <div class="initial-content" style="max-width: 720px; margin: 0 auto; padding: 1rem;">
       {{ content }}
       {% include after-content.html %}
     </div>
-
+    
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
