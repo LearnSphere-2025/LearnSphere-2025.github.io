@@ -13,7 +13,7 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-    <div class="initial-content page__content">
+    <div class="initial-content{% if page.layout == 'single' %} page__content{% endif %}">
       {{ content }}
       {% include after-content.html %}
     </div>
